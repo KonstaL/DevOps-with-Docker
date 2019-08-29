@@ -1,0 +1,7 @@
+eduroam-232-83% docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+<none>              <none>              5a3221f0137b        13 days ago         126MB
+eduroam-232-83% docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+d05bdffd3b9d        5a3221f0137b        "nginx -g 'daemon of…"   22 minutes ago      Up 22 minutes       80/tcp              pedantic_mahavira
+eduroam-232-83%
