@@ -1,0 +1,25 @@
+eduroam-232-83% docker run -d devopsdockeruh/exec_bash_exercise
+9a0597acc09e15c3c59e5aea8ddc4b0d82387f5513623b3c9323de4c3f0d97e0
+eduroam-232-83% docker ps
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS               NAMES
+9a0597acc09e        devopsdockeruh/exec_bash_exercise   "node index"        23 seconds ago      Up 21 seconds                           silly_yalow
+eduroam-232-83% docker exec -it 9a0597acc09e bash
+root@9a0597acc09e:/usr/app# tail -f ./logs.txt
+Secret message is:
+"Docker is easy"
+Thu, 29 Aug 2019 11:44:51 GMT
+Thu, 29 Aug 2019 11:44:54 GMT
+Thu, 29 Aug 2019 11:44:57 GMT
+Thu, 29 Aug 2019 11:45:00 GMT
+Secret message is:
+"Docker is easy"
+Thu, 29 Aug 2019 11:45:06 GMT
+Thu, 29 Aug 2019 11:45:09 GMT
+Thu, 29 Aug 2019 11:45:12 GMT
+Thu, 29 Aug 2019 11:45:15 GMT
+^C
+root@9a0597acc09e:/usr/app# exit
+eduroam-232-83%
+
+
+The secret message is "Docker is easy"
