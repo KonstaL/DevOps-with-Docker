@@ -1,0 +1,9 @@
+eduroam-239-16% docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+71d079fd4e5d        nginx               "nginx -g 'daemon of…"   13 seconds ago      Up 12 seconds       80/tcp              serene_sinoussi
+eduroam-239-16% docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+af205aa0415b        nginx               "nginx -g 'daemon of…"   6 minutes ago       Up 6 minutes               80/tcp              optimistic_lamarr
+27eb3969fb56        nginx               "nginx -g 'daemon of…"   6 minutes ago       Up 6 minutes               80/tcp              magical_bhabha
+d05bdffd3b9d        nginx               "nginx -g 'daemon of…"   6 minutes ago       Up 6 minutes               80/tcp              pedantic_mahavira
+71d079fd4e5d        nginx               "nginx -g 'daemon of…"   8 minutes ago       Exited (0) 8 minutes ago                       serene_sinoussi
